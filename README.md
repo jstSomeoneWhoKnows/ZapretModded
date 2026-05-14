@@ -1,2 +1,3 @@
 # ZAPRET-MODDED
-Zapret-modded
+Форк оригинального репозитория Zapret от flowseal
+Тот же zapret но с русской локализацией и доп стратегиями
