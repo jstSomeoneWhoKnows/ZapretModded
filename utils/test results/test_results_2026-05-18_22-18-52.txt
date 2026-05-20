@@ -1,0 +1,43 @@
+﻿
+Config: MSM_strat.bat (Type: standard)
+  DiscordMain : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  DiscordGateway : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 3 мс
+  DiscordCDN : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  DiscordUpdates : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  YouTubeWeb : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 17 мс
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 18 мс
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 21 мс
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 17 мс
+  GoogleMain : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 18 мс
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 18 мс
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  CloudflareDNS1111 :  | Ping: 4 мс
+  CloudflareDNS1001 :  | Ping: 3 мс
+  GoogleDNS8888 :  | Ping: 19 мс
+  GoogleDNS8844 :  | Ping: 18 мс
+  Quad9DNS9999 :  | Ping: 55 мс
+
+Config: Roblox_strat.bat (Type: standard)
+  UNKNOWN : HTTP:ERROR | Ping: Таймаут
+  DiscordGateway : HTTP:ERROR TLS1.2:ERROR TLS1.3:UNSUP | Ping: 4 мс
+  DiscordCDN : HTTP:ERROR TLS1.2:ERROR TLS1.3:UNSUP | Ping: 4 мс
+  DiscordUpdates : HTTP:ERROR TLS1.2:ERROR TLS1.3:UNSUP | Ping: 3 мс
+  YouTubeWeb : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 17 мс
+  YouTubeShort : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 18 мс
+  YouTubeImage : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 21 мс
+  YouTubeVideoRedirect : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 17 мс
+  GoogleMain : HTTP:ERROR TLS1.2:OK    TLS1.3:UNSUP | Ping: 18 мс
+  GoogleGstatic : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 16 мс
+  CloudflareWeb : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  CloudflareCDN : HTTP:OK    TLS1.2:OK    TLS1.3:UNSUP | Ping: 4 мс
+  CloudflareDNS1111 :  | Ping: 4 мс
+  CloudflareDNS1001 :  | Ping: 4 мс
+  GoogleDNS8888 :  | Ping: 19 мс
+  GoogleDNS8844 :  | Ping: 18 мс
+  Quad9DNS9999 :  | Ping: 55 мс
+
+=== АНАЛИТИКА ===
+MSM_strat.bat : HTTP ОК: 24, ОШИБ: 0, НЕ ПОДДЕРЖ: 12, Пинг ОК: 17, Неудач: 0
+Roblox_strat.bat : HTTP ОК: 15, ОШИБ: 8, НЕ ПОДДЕРЖ: 11, Пинг ОК: 16, Неудач: 1
+Лучшая стратегия: MSM_strat.bat
