@@ -2,7 +2,7 @@
 chcp 866 >nul
 setlocal EnableDelayedExpansion
 
-set "LOCAL_VERSION=1.2"
+set "LOCAL_VERSION=1.2.0"
 
 :: Внешние команды
 if "%~1"=="status_zapret" (
