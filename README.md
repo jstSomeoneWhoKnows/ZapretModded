@@ -1,4 +1,4 @@
-#ZAPRET-MODDED
+# ZAPRET-MODDED
 
 Форк оригинального репозитория **Zapret** от *flowseal* (Все оригинальные авторские права сохраняются за репозиторием `zapret-discord-youtube`).
 
